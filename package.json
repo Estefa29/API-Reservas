@@ -1,0 +1,24 @@
+{
+  "name": "apireservas",
+  "version": "1.0.0",
+  "description": "creacion de API",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "api",
+    "resevas"
+  ],
+  "author": "Cinthia C",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.11.1",
+    "mongoose": "^5.12.11",
+    "yargs": "^17.0.1"
+  }
+}
