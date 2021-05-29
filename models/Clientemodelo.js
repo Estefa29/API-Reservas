@@ -21,11 +21,11 @@ const ClienteEsqueleto=Schema({
     },
     fechaFinReserva:{
         type: String,
-        required: [true, 'La Fecha se requiere']
+        required: [true, 'La Fecha  se requiere']
     },
     numeroPersonas:{
         type: Number,
-        required: [true, 'La Fecha se requiere']
+        required: [true, 'el numero de personas se requiere']
     },
     tipoPaquete:{
         type: String,
